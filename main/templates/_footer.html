@@ -1,0 +1,9 @@
+<div class="wrap">
+  <div class="top">
+  </div>
+  <div class="social">
+    {% for link in social_links %}
+    <a href="{{ link.url }}"><i class="fa fa-{{ link.icon }}"></i></a>
+    {% endfor %}
+  </div>
+</div>

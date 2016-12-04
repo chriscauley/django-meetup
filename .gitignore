@@ -1,0 +1,12 @@
+*~
+*.pyc
+static/*
+media/*
+main/settings/local.py
+
+.static/*
+.media/*
+db.sqlite3
+
+env/*
+.e/*

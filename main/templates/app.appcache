@@ -1,0 +1,10 @@
+CACHE MANIFEST
+# v1 2015-4-17
+{{ STATIC_URL }}css/font-awesome.min.css
+{{ STATIC_URL }}less/bs.css
+
+{{ STATIC_URL }}js/jquery.js
+/favicon.ico
+
+NETWORK:
+/
