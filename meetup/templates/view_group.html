@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ group.name }}</h1>
+<form>
+  <input name="q" value="{{ request.GET.q }}" />
+  <input type="submit" value="Search" />
+</form>
+<table>
+  {% for event in events %}
+  <tr><td>{{ event.data.name }}</td><td>{{ event.datetime }}</td></tr>
+  {% endfor %}
+</table>
+{% endblock %}
